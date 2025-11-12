@@ -48,7 +48,7 @@ async function generatePosterContent() {
     try {
       const response = await ai.models.generateContent({
         model: "gemini-2.5-flash",
-        contents: "Generate content for a poster on 'AI Space Law'. For 'gapTopics', provide exactly 3 entries for 'Outer Space Treaty (1967)', 'Current Laws/Guidelines', and 'Current uses of AI', including details and an image prompt. For 'solutions', provide exactly 4 solutions for 'Liability', 'Surveillance', 'Bias', and 'Unpredictable Autonomy'. Follow the schema precisely.",
+        contents: "Generate content for a poster on 'AI, Policy, Ethics & Space Law'. For 'gapTopics', provide exactly 3 entries for 'Outer Space Treaty (1967)', 'Current Laws/Guidelines', and 'Current uses of AI', including details and an image prompt. For 'solutions', provide exactly 4 solutions for 'Liability', 'Surveillance', 'Bias', and 'Unpredictable Autonomy'. Follow the schema precisely.",
         config: {
           responseMimeType: "application/json",
           responseSchema: fetchedContentSchema,

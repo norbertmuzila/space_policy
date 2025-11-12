@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AI Space Law Poster</title>
+    <title>AI, Policy, Ethics & Space Law Poster</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       html { scroll-behavior: smooth; }
@@ -14,7 +14,7 @@
       .animate-float { animation: float 6s ease-in-out infinite; }
       @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
       @keyframes twinkle { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
-      @keyframes sun-glow { 0%, 100% { box-shadow: 0 0 25px rgba(220, 220, 220, 0.5), 0 0 40px rgba(220, 220, 0.3); } 50% { box-shadow: 0 0 40px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.6); } }
+      @keyframes sun-glow { 0%, 100% { box-shadow: 0 0 25px rgba(220, 220, 220, 0.5), 0 0 40px rgba(220, 220, 0.3); } 50% { box-shadow: 0 0 40px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 0.6); } }
       .animate-sun-glow { animation: sun-glow 5s ease-in-out infinite; }
       .orbit-trail::after { content: ''; position: absolute; inset: 0; border-radius: 50%; border: 1px dashed rgba(255, 255, 255, 0.15); pointer-events: none; }
       .orbit-trail::before { content: ''; position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 90deg, transparent, rgba(100, 255, 255, 0.4) 90deg, transparent 91deg); -webkit-mask-image: radial-gradient(transparent calc(50% - 2px), white calc(50% - 2px), white 50%, transparent 50%); mask-image: radial-gradient(transparent calc(50% - 2px), white calc(50% - 2px), white 50%, transparent 50%); pointer-events: none; }
@@ -81,14 +81,8 @@
             <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%220%200%2040%2040%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%239C92AC%22%20fill-opacity%3D%220.1%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M0%200h40v40H0V0zm20%2020v20h20V20H20z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E')] opacity-50"></div>
             
             <div class="relative z-10">
-              <div class="group mb-8 cursor-pointer">
-                  <div class="z-10 flex h-24 w-24 transform items-center justify-center rounded-full bg-white/10 backdrop-blur-sm ring-1 ring-white/20 transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/20 sm:h-28 sm:w-28 animate-float overflow-hidden">
-                      <img src="/assets/images/logo.gif" alt="AI Space Law Logo" class="w-full h-full object-cover" />
-                  </div>
-              </div>
-  
-              <h1 class="text-[48px] font-bold tracking-tighter text-transparent sm:text-[60px] md:text-[72px] bg-clip-text bg-gradient-to-r from-cyan-300 to-purple-400">
-                AI Space Law
+              <h1 class="text-[36px] font-bold tracking-tighter text-transparent sm:text-[48px] md:text-[60px] bg-clip-text bg-gradient-to-r from-cyan-300 to-purple-400 leading-tight">
+                AI, Policy, Ethics & Space Law
               </h1>
               <p class="mt-2 max-w-3xl text-base text-gray-300 sm:text-lg">
                 Navigating the Final Frontier of Artificial Intelligence Governance
@@ -163,11 +157,11 @@
                             <div class="w-full max-w-6xl bg-[#0c0a1d]/80 border border-cyan-500/30 backdrop-blur-xl rounded-3xl p-8 md:p-12 shadow-2xl shadow-purple-500/10">
                               <div class="flex flex-col md:flex-row gap-8 items-start mb-8">
                                  <div class="flex flex-col gap-4 flex-shrink-0">
-                                    <div class="flex items-center justify-center w-72 h-20 bg-white/5 border border-dashed border-cyan-500/30 rounded-xl overflow-hidden">
-                                        <img src="/assets/images/img-21.jpg" alt="UNOOSA Logo" class="w-full h-full object-cover" />
-                                    </div>
                                     <h2 class="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-purple-400 tracking-tighter">UNOOSA</h2>
                                     <p class="text-xl text-cyan-100 font-light tracking-widest uppercase">104 Countries</p>
+                                    <div class="flex items-center justify-center w-72 h-20 bg-white/5 border border-dashed border-cyan-500/30 rounded-xl overflow-hidden">
+                                        <img src="/assets/images/img-19.jpg" alt="UNOOSA Logo" class="w-full h-full object-cover" />
+                                    </div>
                                  </div>
                                  <div class="flex-1 md:pl-8 md:border-l border-cyan-500/20 pt-2 text-base">
                                     <ul class="space-y-4 text-gray-300">
